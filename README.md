@@ -57,4 +57,11 @@
 ### Presentation Layer
 - Kullanıcının uygulamayla iletişime geçtiği katmandır.
 - Web App, Web Api, MVC
-
+---
+## Onion Özet 
+- Her katman sadece bir iç dairedeki katmana bağımlılık göstermektedir.
+- Her katmanın kendisinden önceki merkeze yakın bir katmana bağlılık göstermesi temel ilkedir. 
+- Bağlılık tek yönlüdür, içe doğrudur.
+- Herhangi bir katmanda yapılan değişiklik içe doğru bir bağlayıcılığı olmayacağı için merkeze doğru olan katmanları etkilemeyecektir. Lakin dıştaki katmanları etkileyecektir.
+- Geleneksel mimarinin aksine, veri katmanı(Persistance) en iç katman olarak değil en dış katman olarak özellikle belirlenmiştir. Böylece uygulamada verinin nerden geldiğinden bağımsız olarak geliştirme yapılabilmektedir.
+- Onion Architecture bir "Clean Architecture" patternıdır!
