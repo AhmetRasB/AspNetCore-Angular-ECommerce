@@ -1,0 +1,16 @@
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net8.0\ECommerceAPI.Application.deps.json
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net8.0\ECommerceAPI.Application.dll
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net8.0\ECommerceAPI.Application.pdb
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net8.0\ECommerceAPI.Domain.dll
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net8.0\ECommerceAPI.Domain.pdb
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.csproj.AssemblyReference.cache
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.AssemblyInfoInputs.cache
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.AssemblyInfo.cs
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.csproj.CoreCompileInputs.cache
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.sourcelink.json
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerc.F181CD37.Up2Date
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.dll
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\refint\ECommerceAPI.Application.dll
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ECommerceAPI.Application.pdb
+C:\Projects\AspNetCore+Angular-ECommerce\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net8.0\ref\ECommerceAPI.Application.dll
