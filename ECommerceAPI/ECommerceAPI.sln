@@ -1,6 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI", "ECommerceAPI\ECommerceAPI.csproj", "{46B9879D-83D4-4246-911B-A8195FAEDFFE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{319F9D19-30AD-4873-A85E-0D8C535858F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Domain", "Core\ECommerceAPI.Domain\ECommerceAPI.Domain.csproj", "{EB931DCE-A45E-437F-BD73-E1E8D1923B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Application", "Core\ECommerceAPI.Application\ECommerceAPI.Application.csproj", "{A68B8319-D453-46C3-9B59-844411D5E778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E730C72D-513B-4F25-B643-CA46DA60A58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Infrastructure", "Infrastructure\ECommerceAPI.Infrastructure\ECommerceAPI.Infrastructure.csproj", "{8569CB0C-EAA1-43A4-9408-C72ED77C20B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Persistence", "Infrastructure\ECommerceAPI.Persistence\ECommerceAPI.Persistence.csproj", "{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4CA4A160-7704-437F-BC86-473D7109E6A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.API", "Presentation\ECommerceAPI.API\ECommerceAPI.API.csproj", "{47F2F526-1316-4106-8BD4-7782A21DAFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +22,32 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46B9879D-83D4-4246-911B-A8195FAEDFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46B9879D-83D4-4246-911B-A8195FAEDFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46B9879D-83D4-4246-911B-A8195FAEDFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46B9879D-83D4-4246-911B-A8195FAEDFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB931DCE-A45E-437F-BD73-E1E8D1923B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB931DCE-A45E-437F-BD73-E1E8D1923B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB931DCE-A45E-437F-BD73-E1E8D1923B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB931DCE-A45E-437F-BD73-E1E8D1923B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68B8319-D453-46C3-9B59-844411D5E778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68B8319-D453-46C3-9B59-844411D5E778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68B8319-D453-46C3-9B59-844411D5E778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68B8319-D453-46C3-9B59-844411D5E778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8569CB0C-EAA1-43A4-9408-C72ED77C20B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8569CB0C-EAA1-43A4-9408-C72ED77C20B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8569CB0C-EAA1-43A4-9408-C72ED77C20B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8569CB0C-EAA1-43A4-9408-C72ED77C20B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F2F526-1316-4106-8BD4-7782A21DAFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F2F526-1316-4106-8BD4-7782A21DAFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F2F526-1316-4106-8BD4-7782A21DAFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F2F526-1316-4106-8BD4-7782A21DAFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB931DCE-A45E-437F-BD73-E1E8D1923B3C} = {319F9D19-30AD-4873-A85E-0D8C535858F8}
+		{A68B8319-D453-46C3-9B59-844411D5E778} = {319F9D19-30AD-4873-A85E-0D8C535858F8}
+		{8569CB0C-EAA1-43A4-9408-C72ED77C20B2} = {E730C72D-513B-4F25-B643-CA46DA60A58D}
+		{1FFB5DB8-2AE2-48FB-AFC6-377FDDB118AF} = {E730C72D-513B-4F25-B643-CA46DA60A58D}
+		{47F2F526-1316-4106-8BD4-7782A21DAFC8} = {4CA4A160-7704-437F-BC86-473D7109E6A6}
 	EndGlobalSection
 EndGlobal
